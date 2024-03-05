@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>El blog de Laura Ruperto</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#">principal</a></li>
+    <li><a href="#">fotos</a></li>
+    <li><a href="#">videos</a></li>
+    <li><a href="#">contacto</a></li>
+    <l
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Mi CV</h1>
+                  <h4>Este es el mejor CV que ver&aacute;n :D</h4>
+                  <div>
+                  <h2>Datos personales:</h2>
+                <ul>
+                  <li>Nombre: Diana Laura M&eacute;ndez Ruperto</li>
+                  <li>Fecha de nacimiento: 14/11/2001</li>
+                  <li>Lugar de nacimiento: Acayucan, Ver.</li>
+                </ul>
+    
+                <h2>Formaci&oacute;n Acad&eacute;mica</h2>
+                <ul>
+                    <li>Primaria: Colegio Carlos Grossman</li>
+                    <li>Secundaria: Colegio Carlos Grossman</li>
+                    <li>Preparatoria: CBTIS 48</li>
+                </ul>
+
+                <h2>Capacidades y aptitudes</h2>
+                <ul>
+                    <li>Ingl&eacute;s C1</li>
+                    <li>T&eacute;cnico en Electr&oacute;nica</li>
+                </ul>
+              </div>
+              </hgroup>
+              
+        </header>
+            <div>
+            <video align="center" width="320" height="240" autoplay controls>
+            <source src="media/video.mp4" type="video/mp4">
+            </video>
+            </div>
+          <time datetime="2024-03-04" pubdate>
+            publicado 04-03-2024
+        </time>
+          <footer>
+              <p>comentarios (36)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Ubicaci&oacute;n</h1>
+                <h4>Vengan a aprender al ITO</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2181.1450218804102!2d-97.09746703872338!3d18.85504722050051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1709576975204!5m2!1ses!2smx" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </hgroup>
+            <figure>
+              <img src="img/yo.jfif">
+              <figcaption>
+              Espero les guste mi blog.
+            </figcaption>
+            </figure>
+            <time datetime="2024-03-04" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         <figure>
+               <img id="imagen2" src="img/buho2.jpg">
+               <figcaption>
+                   Que buen blog!
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (50)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Siganme en mis redes sociales</blockquote>
+      <blockquote>S&eacute; que les va a encantar</blockquote>
+      <a href="https://www.facebook.com/ifyouwantfindlove/">
+       <figure>
+         <img src="img/facebook.jpg" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/nekofitness_orizaba/">
+        <figure>
+          <img src="img/instagram.jpg" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2024-2025
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
